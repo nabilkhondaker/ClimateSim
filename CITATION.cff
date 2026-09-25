@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Climate Infrastructure Resilience Simulator"
+version: 0.1.0
+date-released: "2026-09-24"
+authors:
+  - family-names: Khondaker
+    given-names: Nabil
+license: MIT
+type: software
+abstract: >-
+  A C++20 simulation framework for studying infrastructure resilience under
+  synthetic environmental stress, including thermal building models, simplified
+  electrical networks, transformer degradation, cascading failures, and
+  resilience metrics.

@@ -1,0 +1,17 @@
+simulation:
+  start_time: 0
+  end_time: 259200   # 3 days
+  timestep_seconds: 300
+  seed: 42
+
+environment:
+  scenario: baseline
+  base_temperature_c: 25.0
+  anomaly_c: 0.0
+
+infrastructure:
+  network: demo_city
+
+output:
+  format: json
+  path: results/default.json

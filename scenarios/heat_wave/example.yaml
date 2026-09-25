@@ -1,0 +1,13 @@
+name: heat_wave
+description: Synthetic 5-day heat wave with elevated ambient temperature anomaly
+simulation:
+  end_time: 432000
+  timestep_seconds: 300
+  seed: 42
+environment:
+  base_temperature_c: 28.0
+  anomaly_c: 8.0
+  stochastic_sigma: 1.5
+infrastructure:
+  network: demo_city
+  aging: moderate
